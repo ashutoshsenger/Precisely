@@ -41,13 +41,13 @@
 .audio-btn {
     z-index: 10;
     border-radius: 50%;
-    border: 2px solid;
+    border: 2px solid #535aa5db;
     position: absolute;
     bottom: 40px;
     left: 150px;
     padding-left: 5px;
     padding-right: 5px;
-    background: lightcoral;
+    background: #0e9fbc;
 }
 .vol-btn__icon {
     font-size: 16px;
@@ -57,11 +57,10 @@
 #cssHead {
     margin: 20px auto;
     width: 180px;
-    background-color: #fff;
+    background-color: #ffc600f5;
     height: 180px;
     -webkit-border-radius: 500px;
     border-radius: 500px;
-    border: 3px solid #000;
     -moz-transform: rotate(-2deg) skew(-3deg, -2deg);
     -webkit-transform: rotate(-2deg) skew(-3deg, -2deg);
     -o-transform: rotate(-2deg) skew(-3deg, -2deg);
@@ -74,14 +73,14 @@
 
 .cssPupil {
     width: 12px;
-    background: #000;
+    background: #0e9fbc;
     height: 12px;
     margin: 6px 0px 3px 8px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
 }
 .cssEyeLid {
-    border: 1px solid #000;
+    border: 1px solid #0e9fbc;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     overflow: hidden;
@@ -119,7 +118,7 @@
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #0e9fbc;
     -webkit-border-radius: 100px;
     border-radius: 100px;
     height: 20px;

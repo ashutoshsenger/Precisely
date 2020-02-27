@@ -302,17 +302,13 @@ img[src=""], .not-start {
     text-align: center;
     user-select: none;
     box-sizing: border-box;
-    background: #ffd;
     padding: 2px;
-    border: 2px solid #333;
-    border-radius: 10px;
-    box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
     justify-content: center;
 }
 
 .boxes .box {
     margin: 0 0 1px 1px;
-    background: #666 !important;
+    margin: 3px;
 }
 
 .box {
@@ -327,14 +323,13 @@ img[src=""], .not-start {
     cursor: grab;
     /*font-size: 1.5rem;*/
     font-weight: 200;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: "Georgia", serif;
     text-align: center;
     user-select: none;
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 0;
-    border: 2px solid #333;
+    border: 2px solid #535aa5db;
     border-radius: 10px;
     color: #fff;
     font-size: 2em;
@@ -366,13 +361,14 @@ img[src=""], .not-start {
 
 .blank-input {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    color: #333;
+    color: #fff;
+    letter-spacing: 3px;
     user-select: none;
     box-sizing: border-box;
     margin: 5px 5px 5px 5px;
-    background: rgb(239, 239, 247);
+    background: #535aa5db;
     padding: 10px;
-    border: 2px solid #333;
+    border: none;
     border-radius: 10px;
     box-shadow: 0 0 0.3em rgba(0, 0, 0, .8);
     text-shadow: 0 0 3px #000;
@@ -384,13 +380,11 @@ img[src=""], .not-start {
     text-align: center;
     min-height: 50px;
     min-width: 70px;
-    background-color: white;
     width: max-content;
     height: max-content;
     border-radius: 10px;
     transition: 0.2s all ease-in;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    border-style: dashed;
     height: 62px;
 }
 
@@ -445,8 +439,9 @@ img[src=""], .not-start {
 .next-stage-btn {
     margin-top: 10px;
     transition: all 0.9s ease-in;
-    border: 2px solid #333;
+    border: 2px solid #F3CF14;
     border-radius: 10px;
+    background: none;
     font-size: 1.5em;
 }
 
@@ -484,9 +479,10 @@ img[src=""], .not-start {
 }
 
 #question_image {
-    /*width: 300px;*/
     height: 150px;
-    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 6px solid #F3CF14;
 }
 
 .incorrect_answer {
