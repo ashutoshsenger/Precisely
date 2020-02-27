@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="styles/rating.css">
     <link rel="stylesheet" href="styles/gif_modal.css">
 </head>
-<body oncontextmenu="return false;">
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#FFF; ">
+<body oncontextmenu="return false;" id="vantabody">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand" href="">
             <img src="images/logo.svg" class="d-inline-block align-top" alt="eVidya">
@@ -62,7 +62,7 @@
 </div>
 <div class="container module-container">
     <div class="row">
-        <div class="col-sm-2 bg-light">
+        <div class="col-sm-2 mod">
             <nav class="nav flex-column">
                 <a class="nav-link active" href="#">E-Vidya</a>
                 <a class="nav-link" href="#">Activities</a>
@@ -71,7 +71,7 @@
             </nav>
         </div>
         <div class="col-sm-7">
-            <div class="jumbotron bg-light" id="module1-panel">
+            <div class="jumbotron" id="module1-panel">
                 <div class="row not-start justify-content-center">
                     <img id="question_image" src="">
                 </div>
@@ -90,12 +90,19 @@
                     </button>
                 </div>
                 <div class="row justify-content-center">
-                    <button id="startBtn" type="button" class="btn btn-secondary btn-lg next-stage-btn">Start
+                    <button id="startBtn" type="button" class="btn btn-secondary my-super-cool-btn btn-lg next-stage-btn">
+                        <div class="dots-container">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                          </div>
+                          <span>Go!</span>
                     </button>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 bg-light">
+        <div class="col-sm-3 mod">
             <div class="row justify-content-center avatar-row">
                 <div class="col align-self-center">
                     <div class="newtooltip">
@@ -145,6 +152,21 @@
 <script src = "scripts/audio.js"></script>
 <script src = "scripts/gif_modal.js"></script>
 <script src="scripts/image_association.js"></script>
+<script src="three.r95.min.js"></script>
+<script src="vanta.waves.min.js"></script>
+<script>
+VANTA.WAVES({
+  el: "#vantabody",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x23275f,
+  shininess: 24.00
+})
+</script>
 
 </body>
 </html>
